@@ -20,9 +20,6 @@ const ImageListView = ({
   activeBtn,
   setActiveBtn,
 }) => {
-  useEffect(() => {
-    console.log(selectedFormats);
-  });
   return (
     <div
       className={`${
